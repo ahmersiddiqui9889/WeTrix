@@ -64,14 +64,14 @@
                 "keys": [
                     "<"
                 ],
-                "content": "Decrease playback rate"
+                "content": "(Shift + ,) \nDecrease playback rate"
             },
             {
                 "keys": [
                 ">"
                     
                 ],
-                "content": "Increase playback rate"
+                "content": "(Shift + .) \nIncrease playback rate"
             },
             {
                 "keys": [
