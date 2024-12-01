@@ -41,7 +41,7 @@ function createShortcutCard(shortcut, color) {
 
     const content = document.createElement("p");
     content.textContent = shortcut.content;
-    content.classList.add("mb-0", "mt-2");
+    content.classList.add("mb-0", "mt-2", "mx-2");
 
     card.append(shortcutDiv);
     card.append(content);
