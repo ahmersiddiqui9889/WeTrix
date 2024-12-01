@@ -1,0 +1,62 @@
+[
+    {
+        "url": "google.com",
+        "tips": [
+            {
+                "title": "after:",
+                "content": "Show results after the given date",
+                "example": "Angular JS after:2023-03"
+            },
+            {
+                "title": "before:",
+                "content": "Show results before the given date",
+                "example": "Ecma script before:2000"
+            },
+            {
+                "title": "filetype:",
+                "content": "Show the results of given file type only",
+                "example": "Introduction to Python filetype:pdf"
+            }
+        ],
+        "shortcuts": [
+            {
+                "keys": [
+                    "Ctrl",
+                    "L"
+                ],
+                "content": "Edit url"
+            },
+            {
+                "keys": [
+                    "/"
+                ],
+                "content": "Focus to search bar"
+            }
+        ]
+    },
+    {
+        "url": "bing.com",
+        "tips": [
+            "this is first tip of bing",
+            "this is second tip of bing"
+        ],
+        "shortcuts": [
+            "shortcut1",
+            "shortcut2",
+            "shortcut3"
+        ]
+    },
+    {
+        "url": "youtube.com",
+        "tips": [
+            "youtubeTip1",
+            "youtubeTip2",
+            "youtubeTip3"
+        ],
+        "shortcuts": [
+            "ytshort1",
+            "ytshort2",
+            "ytshort3"
+        ]
+    }
+]
