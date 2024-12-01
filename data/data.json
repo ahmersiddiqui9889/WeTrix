@@ -13,6 +13,11 @@
                 "example": "Ecma script before:2000"
             },
             {
+                "title": "\"...\"",
+                "content": "Search for exact term",
+                "example": "\"zooxanthallae\""
+            },
+            {
                 "title": "filetype:",
                 "content": "Show the results of given file type only",
                 "example": "Introduction to Python filetype:pdf"
@@ -35,28 +40,64 @@
         ]
     },
     {
-        "url": "bing.com",
-        "tips": [
-            "this is first tip of bing",
-            "this is second tip of bing"
-        ],
-        "shortcuts": [
-            "shortcut1",
-            "shortcut2",
-            "shortcut3"
-        ]
-    },
-    {
         "url": "youtube.com",
         "tips": [
-            "youtubeTip1",
-            "youtubeTip2",
-            "youtubeTip3"
+            {
+                "title": "Youtube Sponsorblock",
+                "content": "Install youtube sponsorblock extension to skip segments of sponsors. Managed by community",
+                "example": "The sponsor will be colorcoded red, blue, yellow, etc based on its type and get automatically skipped"
+            },
+            {
+                "title": "Ublock Origin",
+                "content": "Install Ublock Origin extension to remove all the advertisements from youtube ensuring smooth flow",
+                "example": "Ads which are shown before youtube video will not be shown ensuring fast playback"
+            }
         ],
         "shortcuts": [
-            "ytshort1",
-            "ytshort2",
-            "ytshort3"
+            {
+                "keys": [
+                    "0 to 9"
+                ],
+                "content": "Seek to specific point in the video (7 for 70% of duration)"
+            },
+            {
+                "keys": [
+                    "<"
+                ],
+                "content": "Decrease playback rate"
+            },
+            {
+                "keys": [
+                ">"
+                    
+                ],
+                "content": "Increase playback rate"
+            },
+            {
+                "keys": [
+                "<"
+                    
+                ],
+                "content": "Decrease playback rate"
+            },
+            {
+                "keys": [
+                   "f" 
+                ],
+                "content": "Toggle full screen"
+            },
+            {
+                "keys": [
+                   "Ctrl", "<-"
+                ],
+                "content": "Seek to previous chapter"
+            },
+            {
+                "keys": [
+                   "Ctrl", "->"
+                ],
+                "content": "Seek to next chapter"
+            }
         ]
     }
 ]
