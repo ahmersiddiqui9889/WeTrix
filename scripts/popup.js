@@ -1,4 +1,4 @@
-const url = "http://52.66.251.143:8000"
+const url = "http://3.110.122.7:8000"
 
 
 function createTipCard(tip, color) {
@@ -81,7 +81,7 @@ function showContent(data) {
         tipsContainer.append(createTipCard(tip, color));
     }    
 
-    for(let i=0; i < tips.length; i++) {
+    for(let i=0; i < shortcuts.length; i++) {
         let shortcut = shortcuts[i];
         let color = alertClasses[i%5];
         shortcutsContainer.append(createShortcutCard(shortcut, color));
