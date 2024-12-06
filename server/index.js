@@ -1,15 +1,16 @@
 const PORT = 8000;
 const express = require("express");
 const cors = require("cors");
+require("dotenv").config();
 
 const app = express();
-const token = "";
+const token = process.env.GITHUB_TOKEN;
 
 let final_json;
 
 async function syncData() {
     try {
-        const response = await fetch("https://api.github.com/repos/ahmersiddiqui9889/WebShortcuts/contents/data/data.json", {
+        const response = await fetch("https://api.github.com/repos/ahmersiddiqui9889/WeTrix/contents/data/data.json", {
             method: "GET",
             headers: {
                 "Content-Type": "application/vnd.github.v3+json",
